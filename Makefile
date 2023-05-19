@@ -4,4 +4,4 @@ DEST := ./build
 
 define: define.c
 	mkdir -p $(DEST)
-	$(CC) rand.c -o $(DEST)/define
+	$(CC) define.c -o $(DEST)/define
