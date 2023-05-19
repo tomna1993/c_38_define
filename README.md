@@ -2,6 +2,10 @@
 
 ## DESCRIPTION
 
+The preprocessor will process directives that are inserted into the C source code. These directives allow additional actions to be taken on the C source code before it is compiled into object code. Directives are not part of the C language itself.
+
+Preprocessor directives begin with a pound (#) symbol and may have several arguments.
+
 In the C Programming Language, the `#define` directive allows the definition of macros within your source code. These macro definitions allow constant values to be declared for use throughout your code.
 
 Macro definitions are not variables and cannot be changed by your program code like variables. You generally use this syntax when creating constants that represent numbers, strings or expressions.
