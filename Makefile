@@ -1,12 +1,7 @@
 CC := gcc
 #CFLAGS := 
-DEST := ./build/
+DEST := ./build
 
-PROG := define
-
-substitution: $(PROG).c
-	mkdir $(DEST)
-	$(CC) $(PROG).c -o $(DEST)/$(PROG) 
-
-assembly: 	
-	$(CC) -save-temps -c -o $(DEST)/$(PROG).o $(PROG).c
+define: define.c
+	mkdir -p $(DEST)
+	$(CC) rand.c -o $(DEST)/define
